@@ -76,13 +76,14 @@ public class RequestLanguages{
         dict.writeToURL(path, atomically: false)
         
         let resultDictionary = NSMutableDictionary(contentsOfURL: path)
-        if filemgr.fileExistsAtPath("\(docsDir)/Settings/\(fileName)")
+        
+        if filemgr.fileExistsAtPath(path.path!)
         {
             print("File \(docsDir)/Settings/\(fileName) correctly created ")
         }
         else
         {
-            print("Error found will creating \(fileName)  (request language 232111)")
+            print("Error found will creating \(fileName)  (request language 232111) ")
         }
     }
 }
