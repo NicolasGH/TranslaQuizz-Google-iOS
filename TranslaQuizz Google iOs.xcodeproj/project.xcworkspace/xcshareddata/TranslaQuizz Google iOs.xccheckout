@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B0DB33C7-9573-4808-9EEE-55FCBB9C693C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E06C0FD65D4309946BAF8F4E1F2989D0E8ACFEE1</key>
+		<string>github.com:NicolasGH/TranslaQuizz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TranslaQuizz Google iOs.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E06C0FD65D4309946BAF8F4E1F2989D0E8ACFEE1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:NicolasGH/TranslaQuizz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E06C0FD65D4309946BAF8F4E1F2989D0E8ACFEE1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E06C0FD65D4309946BAF8F4E1F2989D0E8ACFEE1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TranslaQuizz%20Google%20iOs</string>
+		</dict>
+	</array>
+</dict>
+</plist>

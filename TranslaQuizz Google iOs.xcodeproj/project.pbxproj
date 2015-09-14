@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3708D7AC1B322581009B9822 /* construction.png in Resources */ = {isa = PBXBuildFile; fileRef = 3708D7AB1B322581009B9822 /* construction.png */; };
+		3728CD291BA713810074A35F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3728CD271BA713810074A35F /* Main.storyboard */; };
+		37B052711B1F300E00AD6F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052701B1F300E00AD6F53 /* AppDelegate.swift */; };
+		37B052741B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37B052721B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodeld */; };
+		37B052761B1F300E00AD6F53 /* ViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052751B1F300E00AD6F53 /* ViewControler.swift */; };
+		37B0527B1B1F300E00AD6F53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B0527A1B1F300E00AD6F53 /* Images.xcassets */; };
+		37B0527E1B1F300E00AD6F53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B0527C1B1F300E00AD6F53 /* LaunchScreen.xib */; };
+		37B0528A1B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052891B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift */; };
+		37B052941B1F304300AD6F53 /* RequestLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052931B1F304300AD6F53 /* RequestLanguages.swift */; };
+		37B052961B1F3B8B00AD6F53 /* FirstStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052951B1F3B8B00AD6F53 /* FirstStart.swift */; };
+		37B052981B1F43F000AD6F53 /* RequestTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052971B1F43F000AD6F53 /* RequestTranslation.swift */; };
+		37B0529A1B1F572B00AD6F53 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052991B1F572B00AD6F53 /* StringExtension.swift */; };
+		37B0529C1B1F6A7100AD6F53 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0529B1B1F6A7100AD6F53 /* Word.swift */; };
+		37B0529F1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0529E1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift */; };
+		37B31BA21B2D883B00273AA9 /* Dictionary extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B31BA11B2D883B00273AA9 /* Dictionary extension.swift */; };
+		37E596D51B31B13000DEE547 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E596D41B31B13000DEE547 /* ArrayExtension.swift */; };
+		37E596D71B31B50900DEE547 /* AskQuizzes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E596D61B31B50900DEE547 /* AskQuizzes.swift */; };
+		37E596E01B31BFF700DEE547 /* ViewController Quizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E596DF1B31BFF700DEE547 /* ViewController Quizz.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37B052841B1F300E00AD6F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B052631B1F300E00AD6F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B0526A1B1F300E00AD6F53;
+			remoteInfo = "TranslaQuizz Google iOs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3708D7AB1B322581009B9822 /* construction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = construction.png; sourceTree = "<group>"; };
+		3728CD281BA713810074A35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37B0526B1B1F300E00AD6F53 /* TranslaQuizz Google iOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TranslaQuizz Google iOs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0526F1B1F300E00AD6F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B052701B1F300E00AD6F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37B052731B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TranslaQuizz_Google_iOs.xcdatamodel; sourceTree = "<group>"; };
+		37B052751B1F300E00AD6F53 /* ViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControler.swift; sourceTree = "<group>"; };
+		37B0527A1B1F300E00AD6F53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37B0527D1B1F300E00AD6F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37B052831B1F300E00AD6F53 /* TranslaQuizz Google iOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TranslaQuizz Google iOsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B052881B1F300E00AD6F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B052891B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslaQuizz_Google_iOsTests.swift; sourceTree = "<group>"; };
+		37B052931B1F304300AD6F53 /* RequestLanguages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLanguages.swift; sourceTree = "<group>"; };
+		37B052951B1F3B8B00AD6F53 /* FirstStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstStart.swift; sourceTree = "<group>"; };
+		37B052971B1F43F000AD6F53 /* RequestTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTranslation.swift; sourceTree = "<group>"; };
+		37B052991B1F572B00AD6F53 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		37B0529B1B1F6A7100AD6F53 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		37B0529E1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRemoveWordForQuizz.swift; sourceTree = "<group>"; };
+		37B31BA11B2D883B00273AA9 /* Dictionary extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary extension.swift"; sourceTree = "<group>"; };
+		37E596D41B31B13000DEE547 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		37E596D61B31B50900DEE547 /* AskQuizzes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskQuizzes.swift; sourceTree = "<group>"; };
+		37E596DF1B31BFF700DEE547 /* ViewController Quizz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "ViewController Quizz.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B052681B1F300E00AD6F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B052801B1F300E00AD6F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B052621B1F300E00AD6F53 = {
+			isa = PBXGroup;
+			children = (
+				37B0526D1B1F300E00AD6F53 /* TranslaQuizz Google iOs */,
+				37B052861B1F300E00AD6F53 /* TranslaQuizz Google iOsTests */,
+				37B0526C1B1F300E00AD6F53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37B0526C1B1F300E00AD6F53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B0526B1B1F300E00AD6F53 /* TranslaQuizz Google iOs.app */,
+				37B052831B1F300E00AD6F53 /* TranslaQuizz Google iOsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B0526D1B1F300E00AD6F53 /* TranslaQuizz Google iOs */ = {
+			isa = PBXGroup;
+			children = (
+				37E596D31B31B0EE00DEE547 /* Swift Extensions */,
+				37B052701B1F300E00AD6F53 /* AppDelegate.swift */,
+				3708D7AB1B322581009B9822 /* construction.png */,
+				37E596DC1B31B6EB00DEE547 /* ViewControlers */,
+				37B0529D1B1F720F00AD6F53 /* Translation Part */,
+				37B0529E1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift */,
+				37B0527A1B1F300E00AD6F53 /* Images.xcassets */,
+				37B0527C1B1F300E00AD6F53 /* LaunchScreen.xib */,
+				3728CD271BA713810074A35F /* Main.storyboard */,
+				37B0529B1B1F6A7100AD6F53 /* Word.swift */,
+				37B052721B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodeld */,
+				37B0526E1B1F300E00AD6F53 /* Supporting Files */,
+				37E596D61B31B50900DEE547 /* AskQuizzes.swift */,
+			);
+			path = "TranslaQuizz Google iOs";
+			sourceTree = "<group>";
+		};
+		37B0526E1B1F300E00AD6F53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B0526F1B1F300E00AD6F53 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B052861B1F300E00AD6F53 /* TranslaQuizz Google iOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				37B052891B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift */,
+				37B052871B1F300E00AD6F53 /* Supporting Files */,
+			);
+			path = "TranslaQuizz Google iOsTests";
+			sourceTree = "<group>";
+		};
+		37B052871B1F300E00AD6F53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B052881B1F300E00AD6F53 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B0529D1B1F720F00AD6F53 /* Translation Part */ = {
+			isa = PBXGroup;
+			children = (
+				37B052931B1F304300AD6F53 /* RequestLanguages.swift */,
+				37B052951B1F3B8B00AD6F53 /* FirstStart.swift */,
+				37B052971B1F43F000AD6F53 /* RequestTranslation.swift */,
+			);
+			name = "Translation Part";
+			sourceTree = "<group>";
+		};
+		37E596D31B31B0EE00DEE547 /* Swift Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37B052991B1F572B00AD6F53 /* StringExtension.swift */,
+				37B31BA11B2D883B00273AA9 /* Dictionary extension.swift */,
+				37E596D41B31B13000DEE547 /* ArrayExtension.swift */,
+			);
+			name = "Swift Extensions";
+			sourceTree = "<group>";
+		};
+		37E596DC1B31B6EB00DEE547 /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				37B052751B1F300E00AD6F53 /* ViewControler.swift */,
+				37E596DF1B31BFF700DEE547 /* ViewController Quizz.swift */,
+			);
+			name = ViewControlers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B0526A1B1F300E00AD6F53 /* TranslaQuizz Google iOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B0528D1B1F300E00AD6F53 /* Build configuration list for PBXNativeTarget "TranslaQuizz Google iOs" */;
+			buildPhases = (
+				37B052671B1F300E00AD6F53 /* Sources */,
+				37B052681B1F300E00AD6F53 /* Frameworks */,
+				37B052691B1F300E00AD6F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TranslaQuizz Google iOs";
+			productName = "TranslaQuizz Google iOs";
+			productReference = 37B0526B1B1F300E00AD6F53 /* TranslaQuizz Google iOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37B052821B1F300E00AD6F53 /* TranslaQuizz Google iOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B052901B1F300E00AD6F53 /* Build configuration list for PBXNativeTarget "TranslaQuizz Google iOsTests" */;
+			buildPhases = (
+				37B0527F1B1F300E00AD6F53 /* Sources */,
+				37B052801B1F300E00AD6F53 /* Frameworks */,
+				37B052811B1F300E00AD6F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B052851B1F300E00AD6F53 /* PBXTargetDependency */,
+			);
+			name = "TranslaQuizz Google iOsTests";
+			productName = "TranslaQuizz Google iOsTests";
+			productReference = 37B052831B1F300E00AD6F53 /* TranslaQuizz Google iOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B052631B1F300E00AD6F53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nicolas GHEUNG";
+				TargetAttributes = {
+					37B0526A1B1F300E00AD6F53 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = Z5ALPP4977;
+					};
+					37B052821B1F300E00AD6F53 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 37B0526A1B1F300E00AD6F53;
+					};
+				};
+			};
+			buildConfigurationList = 37B052661B1F300E00AD6F53 /* Build configuration list for PBXProject "TranslaQuizz Google iOs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37B052621B1F300E00AD6F53;
+			productRefGroup = 37B0526C1B1F300E00AD6F53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B0526A1B1F300E00AD6F53 /* TranslaQuizz Google iOs */,
+				37B052821B1F300E00AD6F53 /* TranslaQuizz Google iOsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B052691B1F300E00AD6F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B0527E1B1F300E00AD6F53 /* LaunchScreen.xib in Resources */,
+				3708D7AC1B322581009B9822 /* construction.png in Resources */,
+				37B0527B1B1F300E00AD6F53 /* Images.xcassets in Resources */,
+				3728CD291BA713810074A35F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B052811B1F300E00AD6F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B052671B1F300E00AD6F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B052961B1F3B8B00AD6F53 /* FirstStart.swift in Sources */,
+				37E596D71B31B50900DEE547 /* AskQuizzes.swift in Sources */,
+				37B0529F1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift in Sources */,
+				37B0529C1B1F6A7100AD6F53 /* Word.swift in Sources */,
+				37B0529A1B1F572B00AD6F53 /* StringExtension.swift in Sources */,
+				37B052981B1F43F000AD6F53 /* RequestTranslation.swift in Sources */,
+				37B052761B1F300E00AD6F53 /* ViewControler.swift in Sources */,
+				37B052941B1F304300AD6F53 /* RequestLanguages.swift in Sources */,
+				37B052741B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodeld in Sources */,
+				37B31BA21B2D883B00273AA9 /* Dictionary extension.swift in Sources */,
+				37B052711B1F300E00AD6F53 /* AppDelegate.swift in Sources */,
+				37E596D51B31B13000DEE547 /* ArrayExtension.swift in Sources */,
+				37E596E01B31BFF700DEE547 /* ViewController Quizz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B0527F1B1F300E00AD6F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B0528A1B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37B052851B1F300E00AD6F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B0526A1B1F300E00AD6F53 /* TranslaQuizz Google iOs */;
+			targetProxy = 37B052841B1F300E00AD6F53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3728CD271BA713810074A35F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3728CD281BA713810074A35F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37B0527C1B1F300E00AD6F53 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B0527D1B1F300E00AD6F53 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37B0528B1B1F300E00AD6F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B0528C1B1F300E00AD6F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B0528E1B1F300E00AD6F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TranslaQuizz Google iOs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		37B0528F1B1F300E00AD6F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TranslaQuizz Google iOs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		37B052911B1F300E00AD6F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TranslaQuizz Google iOsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranslaQuizz Google iOs.app/TranslaQuizz Google iOs";
+			};
+			name = Debug;
+		};
+		37B052921B1F300E00AD6F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TranslaQuizz Google iOsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranslaQuizz Google iOs.app/TranslaQuizz Google iOs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B052661B1F300E00AD6F53 /* Build configuration list for PBXProject "TranslaQuizz Google iOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B0528B1B1F300E00AD6F53 /* Debug */,
+				37B0528C1B1F300E00AD6F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B0528D1B1F300E00AD6F53 /* Build configuration list for PBXNativeTarget "TranslaQuizz Google iOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B0528E1B1F300E00AD6F53 /* Debug */,
+				37B0528F1B1F300E00AD6F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B052901B1F300E00AD6F53 /* Build configuration list for PBXNativeTarget "TranslaQuizz Google iOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B052911B1F300E00AD6F53 /* Debug */,
+				37B052921B1F300E00AD6F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37B052721B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37B052731B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodel */,
+			);
+			currentVersion = 37B052731B1F300E00AD6F53 /* TranslaQuizz_Google_iOs.xcdatamodel */;
+			path = TranslaQuizz_Google_iOs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37B052631B1F300E00AD6F53 /* Project object */;
+}
