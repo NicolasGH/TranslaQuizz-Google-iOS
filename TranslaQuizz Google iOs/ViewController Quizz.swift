@@ -100,7 +100,6 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
             }
             
             
-            //COMMENTAIRE ESSAI GIT
         }
 
     }
