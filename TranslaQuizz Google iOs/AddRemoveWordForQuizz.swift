@@ -28,7 +28,7 @@ public class AddRemoveWordForQuizz
         var dict :NSDictionary
         if (!filemgr.fileExistsAtPath(path))
         {
-            var DictionnaryOfTranslations = [String : NSArray]()
+            var DictionnaryOfTranslations = [String : NSDictionary]()
             DictionnaryOfTranslations[word.GETWordRawKey()] = self.word.GETDataTranslateDictionary()
             
             let words = ["Saved Words" : DictionnaryOfTranslations] as NSDictionary
@@ -69,7 +69,7 @@ public class AddRemoveWordForQuizz
         else
         {
            print("Error RemoveWordOFPLIST, file doesn't exists")
-        }
+        }           //CHECK THIS PART !!!! WHEN ACCOUNT IS AVAILABLE !!! 
     }   
 }
 

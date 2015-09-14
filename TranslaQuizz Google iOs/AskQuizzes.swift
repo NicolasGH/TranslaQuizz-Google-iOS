@@ -47,14 +47,14 @@ class AskQuizzes
         {
             let dict = NSMutableDictionary(contentsOfFile: path)!
             let mySavedWords: AnyObject = dict.objectForKey("Saved Words")!
-            let mySavedWordsArray = (mySavedWords as! NSMutableDictionary) as NSMutableDictionary
-            print(mySavedWords)
-//            mySavedWordsArray[word.GETWordRawKey()]=(self.word.GETDataTranslateDictionary())
-//            
-            
-            //let words = ["Saved Words" : mySavedWordsArray] as NSDictionary
-            //words.writeToFile(path, atomically:true)
-            //print("PLIST Updated Add : \(word.GETWordRawKey())")
+            let mySavedWordsDictionnary = mySavedWords as! NSDictionary
+            for (word , value) in mySavedWordsDictionnary
+            {
+                var infos = value as! NSDictionary
+                
+
+                wordDictionnary.append(Word(fromLanguage: self.inputLanguagePrefix, toLanguage: self.outputLanguagePrefix, rawText: word as! String, translatedText: infos["Translated Text"]! as! String))
+            }
         }
         else
         {
@@ -62,10 +62,13 @@ class AskQuizzes
         }
         
         
-        func startTheQuizz()
-        {
-            wordDictionnary.shuffle(wordDictionnary)
-        }
+      
+    }
+    func wordGenerator() -> Word
+    {
+        let index = Int(arc4random_uniform((UInt32)(wordDictionnary.count-1)))
+        print(wordDictionnary[index].ToString())
+        return wordDictionnary[index]
     }
     
 }

@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
+class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate,UITextFieldDelegate {
     
     var inputLangages = [String]()
     var outputLangages = [String]()
     var diction = Dictionary<String,String>()
+    var workingWord:Word?
+    var quizz:AskQuizzes?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,7 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
         loadAvailableLangages()
         self.pickerViewLangage.dataSource = self;
         self.pickerViewLangage.delegate = self;
+      
 
         // Do any additional setup after loading the view.
     }
@@ -79,24 +82,28 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
         let docsDir = NSURL(fileURLWithPath: docuPaths[0])
         let path = docsDir.URLByAppendingPathComponent("/Content/")
         let filemgr = NSFileManager.defaultManager()
-        var files = [NSURL]()
+        var files = [String]()
         do
         {
-            files = try  filemgr.contentsOfDirectoryAtURL(path, includingPropertiesForKeys: nil, options: [])
+            files = try  filemgr.contentsOfDirectoryAtPath (path.path!)
         }
         catch{
          print(" line 83 VC QUIZZ catch error loading")
         }
         
-        if (files.count != 0)
+        
+        if (files.count != 0 )
         {
             print("\(files) line 104 print files available")
             for (var i = 0 ; i<files.count ; i++)
             {
-                let langageArray = files[i].path!.componentsSeparatedByString("-")
-                print("Controle ligne 97 viewcontroler quizz!! uniquement nom du fichier check \(langageArray)")
-                self.inputLangages.append(langageArray[1])
-                self.outputLangages.append(langageArray[3])
+                if ( files[i].componentsSeparatedByString("-")[0] == ("WordsDataFROM"))
+                {
+                    let langageArray = files[i].componentsSeparatedByString("-")
+                    print("Controle ligne 97 viewcontroler quizz!! uniquement nom du fichier check \(langageArray)")
+                    self.inputLangages.append(langageArray[1])
+                    self.outputLangages.append(langageArray[3])
+                }
             }
             
             
@@ -117,8 +124,54 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
 
     @IBOutlet weak var LaunchQuizz: UIButton!
     
+    @IBOutlet weak var Switch: UISwitch!
+    
+    @IBOutlet weak var WordToTranslate: UILabel!
+    
+    
     @IBAction func LaunchQuizzButton(sender: AnyObject) {
-        AskQuizzes(inputLanguagePrefix: inputLangages[(pickerViewLangage.selectedRowInComponent(0))], outputLanguagePrefix: outputLangages[pickerViewLangage.selectedRowInComponent(1)]).loadFile()
+        
+        self.quizz = AskQuizzes(inputLanguagePrefix: inputLangages[(pickerViewLangage.selectedRowInComponent(0))], outputLanguagePrefix: outputLangages[pickerViewLangage.selectedRowInComponent(1)])
+        
+        self.quizz!.loadFile()
+        self.workingWord = self.quizz!.wordGenerator()
+        if (Switch.on == true )
+        {
+            WordToTranslate.text = "Word to translate \(workingWord!.GETTranslation())"
+        }
+        else
+        {
+            WordToTranslate.text = "Word to translate \(workingWord!.GETWordRawKey())"
+        }
+    }
+    
+    @IBOutlet weak var Result: UITextField!
+    
+    @IBAction func textFielGo(sender: AnyObject)
+    {
+        sender.resignFirstResponder()
+        let res = CheckAnswer()
+        if (res == true)
+        {
+            self.workingWord = self.quizz!.wordGenerator()
+            if (Switch.on == true )
+            {
+                WordToTranslate.text = "Word to translate \(workingWord!.GETTranslation())"
+            }
+            else
+            {
+                WordToTranslate.text = "Word to translate \(workingWord!.GETWordRawKey())"
+            }
+        }
+        else
+        {
+            let alert = UIAlertView()
+            alert.title = "Wrong Word"
+            alert.message = "Try again"
+            alert.addButtonWithTitle("Close")
+            alert.show()
+
+        }
     }
     /*
     // MARK: - Navigation
@@ -129,5 +182,24 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
     // Pass the selected object to the new view controller.
     }
     */
-    
+    func CheckAnswer() -> Bool
+    {
+        if (Switch.on == true )
+        {
+              if (Result.text == workingWord?.GETWordRawKey() )
+              {
+                return true
+            }
+            return false
+        }
+        else
+        {
+            if (Result.text == workingWord?.GETTranslation() )
+            {
+                return true
+            }
+            return false
+        }
+      
+    }
 }

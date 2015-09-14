@@ -91,7 +91,7 @@ public class RequestTranslation
         }
         else
         {
-            return (Word(fromLanguage: self.fromLanguage!, toLanguage: self.toLanguage, rawText: self.textToTranslate, translatedText: (translation?.stringByReplacingOccurrencesOfString("&#39;", withString: "'"))!), "Ok")
+            return (Word(fromLanguage: self.fromLanguage!, toLanguage: self.toLanguage, rawText: self.textToTranslate, translatedText: (translation?.stringByReplacingOccurrencesOfString("&#39;", withString: "'"))!), "0")
         }
     }
 }

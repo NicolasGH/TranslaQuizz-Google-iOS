@@ -168,6 +168,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         {
             resultText = "\(request!.ToString())"
             AddRemoveWordForQuizz(word: request!).AddWordToPlist()
+            print("here")
             WordTranslated.text = resultText
         }
             else if (status != "nil")

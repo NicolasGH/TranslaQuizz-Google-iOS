@@ -32,21 +32,21 @@ public class Word
         return ("raw text: \(self.rawText)\nfrom:\(self.fromLanguage)\nto:\(self.toLanguage)\nTranslated text: \(self.translatedText)")
     }
     
-    public func GETDataTranslateDictionary() -> NSArray
+    public func GETDataTranslateDictionary() -> NSDictionary
     {
         var dict = [String : AnyObject]()
-        var array = [NSDictionary]()
+       // var dict = [NSDictionary]()
         dict["From Language"] = self.fromLanguage
         dict["To Language"] = self.toLanguage
         dict["Raw Language"] = self.rawText
         dict["Translated Text"] = self.translatedText
         dict["Created Time"] = self.createdTime
         dict["Priority"] = self.priority
-        for (key, value) in dict
-        {
-            array.append([key:value])
-        }
-    return array
+//        for (key, value) in dict
+//        {
+//            array.append([key:value])
+//        }
+    return dict
     }
     
     public func GETWordRawKey() -> String
@@ -62,6 +62,11 @@ public class Word
     public func GETToLanguage() -> String
     {
         return self.toLanguage
+    }
+    
+    public func GETTranslation() -> String
+    {
+        return self.translatedText
     }
     
     public func ModifierTraduction(value:String)
