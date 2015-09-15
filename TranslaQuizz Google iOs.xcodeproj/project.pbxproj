@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3708D7AC1B322581009B9822 /* construction.png in Resources */ = {isa = PBXBuildFile; fileRef = 3708D7AB1B322581009B9822 /* construction.png */; };
+		376AECBE1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist in Resources */ = {isa = PBXBuildFile; fileRef = 376AECBD1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist */; settings = {ASSET_TAGS = (New, ); }; };
 		37B052711B1F300E00AD6F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052701B1F300E00AD6F53 /* AppDelegate.swift */; };
 		37B052761B1F300E00AD6F53 /* ViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052751B1F300E00AD6F53 /* ViewControler.swift */; };
 		37B0527B1B1F300E00AD6F53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B0527A1B1F300E00AD6F53 /* Images.xcassets */; };
-		37B0528A1B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052891B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift */; };
 		37B052941B1F304300AD6F53 /* RequestLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052931B1F304300AD6F53 /* RequestLanguages.swift */; };
 		37B052961B1F3B8B00AD6F53 /* FirstStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052951B1F3B8B00AD6F53 /* FirstStart.swift */; };
 		37B052981B1F43F000AD6F53 /* RequestTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052971B1F43F000AD6F53 /* RequestTranslation.swift */; };
@@ -38,14 +38,13 @@
 
 /* Begin PBXFileReference section */
 		3708D7AB1B322581009B9822 /* construction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = construction.png; sourceTree = "<group>"; };
+		376AECBD1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WordsDataFROM-en-TO-fr-.plist"; sourceTree = "<group>"; };
 		37B0526B1B1F300E00AD6F53 /* TranslaQuizz Google iOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TranslaQuizz Google iOs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0526F1B1F300E00AD6F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B052701B1F300E00AD6F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B052751B1F300E00AD6F53 /* ViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControler.swift; sourceTree = "<group>"; };
 		37B0527A1B1F300E00AD6F53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37B052831B1F300E00AD6F53 /* TranslaQuizz Google iOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TranslaQuizz Google iOsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B052881B1F300E00AD6F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37B052891B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslaQuizz_Google_iOsTests.swift; sourceTree = "<group>"; };
 		37B052931B1F304300AD6F53 /* RequestLanguages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLanguages.swift; sourceTree = "<group>"; };
 		37B052951B1F3B8B00AD6F53 /* FirstStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstStart.swift; sourceTree = "<group>"; };
 		37B052971B1F43F000AD6F53 /* RequestTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTranslation.swift; sourceTree = "<group>"; };
@@ -82,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				37B0526D1B1F300E00AD6F53 /* TranslaQuizz Google iOs */,
-				37B052861B1F300E00AD6F53 /* TranslaQuizz Google iOsTests */,
 				37B0526C1B1F300E00AD6F53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +102,7 @@
 				37E596D31B31B0EE00DEE547 /* Swift Extensions */,
 				37B052701B1F300E00AD6F53 /* AppDelegate.swift */,
 				3708D7AB1B322581009B9822 /* construction.png */,
+				376AECBD1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist */,
 				37E596DC1B31B6EB00DEE547 /* ViewControlers */,
 				37B0529D1B1F720F00AD6F53 /* Translation Part */,
 				37B0529E1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift */,
@@ -119,23 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				37B0526F1B1F300E00AD6F53 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		37B052861B1F300E00AD6F53 /* TranslaQuizz Google iOsTests */ = {
-			isa = PBXGroup;
-			children = (
-				37B052891B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift */,
-				37B052871B1F300E00AD6F53 /* Supporting Files */,
-			);
-			path = "TranslaQuizz Google iOsTests";
-			sourceTree = "<group>";
-		};
-		37B052871B1F300E00AD6F53 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				37B052881B1F300E00AD6F53 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,6 +195,9 @@
 		37B052631B1F300E00AD6F53 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Nicolas GHEUNG";
@@ -253,6 +238,7 @@
 			files = (
 				37DAF9451BA7310F00EF3143 /* LaunchScreen.xib in Resources */,
 				3708D7AC1B322581009B9822 /* construction.png in Resources */,
+				376AECBE1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist in Resources */,
 				37B0527B1B1F300E00AD6F53 /* Images.xcassets in Resources */,
 				37DAF9431BA7310200EF3143 /* Main.storyboard in Resources */,
 			);
@@ -291,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B0528A1B1F300E00AD6F53 /* TranslaQuizz_Google_iOsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,12 +379,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TranslaQuizz Google iOs/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.TranslaQuizz-GoogleT-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -409,12 +395,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TranslaQuizz Google iOs/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.TranslaQuizz-GoogleT-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

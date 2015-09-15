@@ -131,21 +131,26 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
     
     @IBAction func LaunchQuizzButton(sender: AnyObject) {
         
-        self.quizz = AskQuizzes(inputLanguagePrefix: inputLangages[(pickerViewLangage.selectedRowInComponent(0))], outputLanguagePrefix: outputLangages[pickerViewLangage.selectedRowInComponent(1)])
+        //self.quizz = AskQuizzes(inputLanguagePrefix: inputLangages[(pickerViewLangage.selectedRowInComponent(0))], outputLanguagePrefix: outputLangages[pickerViewLangage.selectedRowInComponent(1)])
+        self.quizz = AskQuizzes(inputLanguagePrefix: "", outputLanguagePrefix: "")
         
         self.quizz!.loadFile()
         self.workingWord = self.quizz!.wordGenerator()
         if (Switch.on == true )
         {
-            WordToTranslate.text = "Word to translate \(workingWord!.GETTranslation())"
+            WordToTranslate.text = "Word to translate : \(workingWord!.GETTranslation())"
         }
         else
         {
-            WordToTranslate.text = "Word to translate \(workingWord!.GETWordRawKey())"
+            WordToTranslate.text = "Word to translate : \(workingWord!.GETWordRawKey())"
         }
     }
     
     @IBOutlet weak var Result: UITextField!
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        Result.endEditing(true)
+    }
     
     @IBAction func textFielGo(sender: AnyObject)
     {
@@ -156,11 +161,11 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
             self.workingWord = self.quizz!.wordGenerator()
             if (Switch.on == true )
             {
-                WordToTranslate.text = "Word to translate \(workingWord!.GETTranslation())"
+                WordToTranslate.text = "Word to translate : \(workingWord!.GETTranslation())"
             }
             else
             {
-                WordToTranslate.text = "Word to translate \(workingWord!.GETWordRawKey())"
+                WordToTranslate.text = "Word to translate : \(workingWord!.GETWordRawKey())"
             }
         }
         else

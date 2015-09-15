@@ -39,7 +39,9 @@ class AskQuizzes
         let dirPaths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory,
             .UserDomainMask, true) as NSArray
         let documentDirectory = dirPaths[0]
-        let path = documentDirectory.stringByAppendingPathComponent("/Content/WordsDataFROM-\(self.inputLanguagePrefix)-TO-\(self.outputLanguagePrefix)-.plist")
+//        let path = documentDirectory.stringByAppendingPathComponent("/Content/WordsDataFROM-\(self.inputLanguagePrefix)-TO-\(self.outputLanguagePrefix)-.plist")
+        let path = documentDirectory.stringByAppendingPathComponent("/WordsDataFROM-en-TO-fr-.plist")
+        
         let filemgr = NSFileManager.defaultManager()
         
         var dict :NSDictionary
