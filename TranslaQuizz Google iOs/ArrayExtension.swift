@@ -30,13 +30,17 @@ extension Array {
         return list
     }
     
-    func pickWordRadomlyWheighted()// -> Word
+    func pickWordRadomlyWheighted<C: MutableCollectionType where C.Index == Int>()  -> Word
     {
-//            rand_no = rand(0,1)
-//            for element in array
-//            if(rand_num < element.probablity)
-//            select and break
-//            rand_num = rand_num - element.probability
-  
+        let rand_no = (Float(arc4random()) / Float(UINT32_MAX))
+        for i in 0..<(self.count) {
+            
+            if (Double(rand_no) < Double((self[i] as! Word).GETPriority())/5.0)
+            {
+                return (self[i] as! Word)
+            }
+        }
+        
+        return self[-1] as! Word
     }
 }

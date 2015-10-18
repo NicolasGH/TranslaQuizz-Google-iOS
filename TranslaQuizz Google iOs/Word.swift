@@ -69,6 +69,27 @@ public class Word
         return self.translatedText
     }
     
+    public func GETPriority() -> Int
+    {
+        return self.priority
+    }
+    
+    public func SETUpPriority()
+    {
+        if (self.priority<5)
+        {
+            self.priority++
+        }
+    }
+    
+    public func SETDownPriority()
+    {
+        if (self.priority>0)
+        {
+            self.priority--
+        }
+    }
+    
     public func ModifierTraduction(value:String)
     {
         self.translatedText = value

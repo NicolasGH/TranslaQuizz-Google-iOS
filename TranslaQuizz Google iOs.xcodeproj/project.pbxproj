@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3708D7AC1B322581009B9822 /* construction.png in Resources */ = {isa = PBXBuildFile; fileRef = 3708D7AB1B322581009B9822 /* construction.png */; };
-		376AECBE1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist in Resources */ = {isa = PBXBuildFile; fileRef = 376AECBD1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist */; settings = {ASSET_TAGS = (New, ); }; };
 		37B052711B1F300E00AD6F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052701B1F300E00AD6F53 /* AppDelegate.swift */; };
 		37B052761B1F300E00AD6F53 /* ViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B052751B1F300E00AD6F53 /* ViewControler.swift */; };
 		37B0527B1B1F300E00AD6F53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B0527A1B1F300E00AD6F53 /* Images.xcassets */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		3708D7AB1B322581009B9822 /* construction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = construction.png; sourceTree = "<group>"; };
-		376AECBD1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WordsDataFROM-en-TO-fr-.plist"; sourceTree = "<group>"; };
 		37B0526B1B1F300E00AD6F53 /* TranslaQuizz Google iOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TranslaQuizz Google iOs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B0526F1B1F300E00AD6F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B052701B1F300E00AD6F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,17 +97,11 @@
 			children = (
 				37DAF9421BA7310200EF3143 /* Main.storyboard */,
 				37DAF9441BA7310F00EF3143 /* LaunchScreen.xib */,
-				37E596D31B31B0EE00DEE547 /* Swift Extensions */,
+				37B8DBF71BC16AF50068AFB1 /* src */,
 				37B052701B1F300E00AD6F53 /* AppDelegate.swift */,
 				3708D7AB1B322581009B9822 /* construction.png */,
-				376AECBD1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist */,
-				37E596DC1B31B6EB00DEE547 /* ViewControlers */,
-				37B0529D1B1F720F00AD6F53 /* Translation Part */,
-				37B0529E1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift */,
 				37B0527A1B1F300E00AD6F53 /* Images.xcassets */,
-				37B0529B1B1F6A7100AD6F53 /* Word.swift */,
 				37B0526E1B1F300E00AD6F53 /* Supporting Files */,
-				37E596D61B31B50900DEE547 /* AskQuizzes.swift */,
 			);
 			path = "TranslaQuizz Google iOs";
 			sourceTree = "<group>";
@@ -130,6 +122,19 @@
 				37B052971B1F43F000AD6F53 /* RequestTranslation.swift */,
 			);
 			name = "Translation Part";
+			sourceTree = "<group>";
+		};
+		37B8DBF71BC16AF50068AFB1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				37E596D31B31B0EE00DEE547 /* Swift Extensions */,
+				37E596DC1B31B6EB00DEE547 /* ViewControlers */,
+				37B0529D1B1F720F00AD6F53 /* Translation Part */,
+				37B0529E1B1F724900AD6F53 /* AddRemoveWordForQuizz.swift */,
+				37B0529B1B1F6A7100AD6F53 /* Word.swift */,
+				37E596D61B31B50900DEE547 /* AskQuizzes.swift */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 		37E596D31B31B0EE00DEE547 /* Swift Extensions */ = {
@@ -238,7 +243,6 @@
 			files = (
 				37DAF9451BA7310F00EF3143 /* LaunchScreen.xib in Resources */,
 				3708D7AC1B322581009B9822 /* construction.png in Resources */,
-				376AECBE1BA7801F0047596B /* WordsDataFROM-en-TO-fr-.plist in Resources */,
 				37B0527B1B1F300E00AD6F53 /* Images.xcassets in Resources */,
 				37DAF9431BA7310200EF3143 /* Main.storyboard in Resources */,
 			);
@@ -420,6 +424,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TranslaQuizz Google iOsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +441,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TranslaQuizz Google iOsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nicolas.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -39,8 +39,7 @@ class AskQuizzes
         let dirPaths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory,
             .UserDomainMask, true) as NSArray
         let documentDirectory = dirPaths[0]
-//        let path = documentDirectory.stringByAppendingPathComponent("/Content/WordsDataFROM-\(self.inputLanguagePrefix)-TO-\(self.outputLanguagePrefix)-.plist")
-        let path = documentDirectory.stringByAppendingPathComponent("/WordsDataFROM-en-TO-fr-.plist")
+        let path = documentDirectory.stringByAppendingPathComponent("/Content/WordsDataFROM-\(self.inputLanguagePrefix)-TO-\(self.outputLanguagePrefix)-.plist")
         
         let filemgr = NSFileManager.defaultManager()
         
@@ -68,7 +67,8 @@ class AskQuizzes
     }
     func wordGenerator() -> Word
     {
-        let index = Int(arc4random_uniform((UInt32)(wordDictionnary.count-1)))
+        //let index = Int(arc4random_uniform((UInt32)(wordDictionnary.count-1)))
+        var Word = wordDictionnary.pickWordRadomlyWheighted()
         print(wordDictionnary[index].ToString())
         return wordDictionnary[index]
     }

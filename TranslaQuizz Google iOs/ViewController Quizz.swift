@@ -131,8 +131,8 @@ class ViewController_Quizz: UIViewController,UIPickerViewDataSource,UIPickerView
     
     @IBAction func LaunchQuizzButton(sender: AnyObject) {
         
-        //self.quizz = AskQuizzes(inputLanguagePrefix: inputLangages[(pickerViewLangage.selectedRowInComponent(0))], outputLanguagePrefix: outputLangages[pickerViewLangage.selectedRowInComponent(1)])
-        self.quizz = AskQuizzes(inputLanguagePrefix: "", outputLanguagePrefix: "")
+        self.quizz = AskQuizzes(inputLanguagePrefix: inputLangages[(pickerViewLangage.selectedRowInComponent(0))], outputLanguagePrefix: outputLangages[pickerViewLangage.selectedRowInComponent(1)])
+        //self.quizz = AskQuizzes(inputLanguagePrefix: "", outputLanguagePrefix: "")
         
         self.quizz!.loadFile()
         self.workingWord = self.quizz!.wordGenerator()

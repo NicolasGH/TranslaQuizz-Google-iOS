@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BPZ-MJ-xnt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BPZ-MJ-xnt">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -25,6 +25,7 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="center" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your word" borderStyle="roundedRect" minimumFontSize="14" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="wHd-Rw-bWy">
                                 <rect key="frame" x="163" y="20" width="274" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="274" id="AYp-jn-XV6"/>
                                     <constraint firstAttribute="height" constant="30" id="fMD-hl-9k1"/>
@@ -38,6 +39,7 @@
                             </textField>
                             <pickerView contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="88" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PSd-rG-bHU">
                                 <rect key="frame" x="0.0" y="52" width="600" height="142"/>
+                                <animations/>
                                 <connections>
                                     <outlet property="dataSource" destination="8bC-Xf-vdC" id="Fmg-KV-hyc"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="oAu-q7-xPw"/>
@@ -45,6 +47,7 @@
                             </pickerView>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iao-la-jy1">
                                 <rect key="frame" x="255" y="199" width="91" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hYB-to-dr5"/>
                                     <constraint firstAttribute="width" constant="91" id="hvW-Cy-eeP"/>
@@ -59,6 +62,7 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJt-4T-nh2">
                                 <rect key="frame" x="40" y="233" width="520" height="278"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NJt-4T-nh2" secondAttribute="height" multiplier="15:8" id="j0R-ZH-6JC"/>
@@ -68,6 +72,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-vV-1tk">
                                 <rect key="frame" x="219" y="516" width="164" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bAl-IK-PKA"/>
                                 </constraints>
@@ -75,6 +80,7 @@
                                 <state key="normal" title="Add Word for quizz"/>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Iao-la-jy1" firstAttribute="top" secondItem="PSd-rG-bHU" secondAttribute="bottom" constant="5" id="5fm-Xz-bCm"/>
@@ -123,6 +129,7 @@
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8rq-h1-IQ6">
                                 <rect key="frame" x="0.0" y="74" width="600" height="162"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="XYj-6F-HZf"/>
                                 </constraints>
@@ -133,21 +140,25 @@
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select your working language" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fz-Qj-iEs">
                                 <rect key="frame" x="161" y="28" width="279" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzQ-yi-KiE">
-                                <rect key="frame" x="0.0" y="234" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Reverse" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzQ-yi-KiE">
+                                <rect key="frame" x="0.0" y="234" width="62" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X7q-qc-Rnm">
                                 <rect key="frame" x="276" y="244" width="51" height="31"/>
+                                <animations/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhE-xp-jIJ">
                                 <rect key="frame" x="250" y="283" width="101" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Launch QUIZZ"/>
                                 <connections>
                                     <action selector="LaunchQuizzButton:" destination="anT-YU-Reo" eventType="touchUpInside" id="mTR-jB-OIu"/>
@@ -155,6 +166,7 @@
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGc-DT-FA0">
                                 <rect key="frame" x="219" y="363" width="131" height="30"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go"/>
                                 <connections>
@@ -163,6 +175,7 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mot à traduire :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ys1-kf-l0C">
                                 <rect key="frame" x="242" y="334" width="165" height="21"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="9H4-Vm-YVU"/>
                                     <constraint firstAttribute="width" constant="117" id="ZuG-Yr-Z08"/>
@@ -172,6 +185,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -222,14 +236,17 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="In Construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-tt-3he">
                                 <rect key="frame" x="133" y="227" width="476" height="34"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="construction.png" translatesAutoresizingMaskIntoConstraints="NO" id="0LE-Tq-rI1">
                                 <rect key="frame" x="172" y="116" width="256" height="256"/>
+                                <animations/>
                             </imageView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NdD-tt-3he" firstAttribute="centerX" secondItem="r24-2A-y5l" secondAttribute="centerX" id="c1n-d6-h5I"/>
@@ -253,6 +270,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Gut-iR-p2R">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
