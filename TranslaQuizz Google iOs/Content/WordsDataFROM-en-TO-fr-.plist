@@ -379,6 +379,1221 @@
 			<key>Translated Text</key>
 			<string>date limite</string>
 		</dict>
+		<key>delay</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>delay</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>retard</string>
+		</dict>
+		<key>device</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>device</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>appareil, système</string>
+		</dict>
+		<key>drawback</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>drawback</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>incovénient, désavantage</string>
+		</dict>
+		<key>drill</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>drill</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>percer</string>
+		</dict>
+		<key>dues</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>dues</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>cotisations, droits</string>
+		</dict>
+		<key>eager</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>eager</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>avide, enthousiaste</string>
+		</dict>
+		<key>embezzle</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>embezzle</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>détournement de fonds</string>
+		</dict>
+		<key>enclosed</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>enclosed</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>ci-joint</string>
+		</dict>
+		<key>endeavor</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>endeavor</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>effort</string>
+		</dict>
+		<key>endorse</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>endorse</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>adhérer à, approuver</string>
+		</dict>
+		<key>expand</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>expand</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>s&apos;agrandir, se développer</string>
+		</dict>
+		<key>expense</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>expense</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>frais</string>
+		</dict>
+		<key>expiry date</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>expiry date</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>date expiration</string>
+		</dict>
+		<key>facilities</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>facilities</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>équipements</string>
+		</dict>
+		<key>fare</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>fare</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>prix</string>
+		</dict>
+		<key>fee</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>fee</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>honoraires, frais</string>
+		</dict>
+		<key>fence</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>fence</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>clôture</string>
+		</dict>
+		<key>filing cabinet</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>filing cabinet</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>classer</string>
+		</dict>
+		<key>funding</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>funding</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>financement</string>
+		</dict>
+		<key>gather</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>gather</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>rassembler</string>
+		</dict>
+		<key>goods</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>goods</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>marchandises</string>
+		</dict>
+		<key>hike</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>hike</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>randonnée/hause</string>
+		</dict>
+		<key>huge</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>huge</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>énorme</string>
+		</dict>
+		<key>implement</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>implement</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>executer, mettre en oeuvre</string>
+		</dict>
+		<key>in time</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>in time</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>à temps</string>
+		</dict>
+		<key>issue</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>issue</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>émettre, distribuer</string>
+		</dict>
+		<key>liability</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>liability</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>responsabilité</string>
+		</dict>
+		<key>liabilities</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>liabilities</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>passif</string>
+		</dict>
+		<key>low range</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>low range</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>à long terme</string>
+		</dict>
+		<key>lower</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>lower</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>baisser</string>
+		</dict>
+		<key>miscellaneous</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>miscellaneous</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>divers</string>
+		</dict>
+		<key>mortgage</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>mortgage</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>crédit avec hypothèque</string>
+		</dict>
+		<key>noon</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>noon</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>midi</string>
+		</dict>
+		<key>occurrence</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>occurrence</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>évenement, circonstance</string>
+		</dict>
+		<key>on time</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>on time</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>à l&apos;heure</string>
+		</dict>
+		<key>outdated</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>outdated</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>périmé, démodé</string>
+		</dict>
+		<key>outfit</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>outfit</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>tenue vestimentaire</string>
+		</dict>
+		<key>outlet</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>outlet</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>point de vente</string>
+		</dict>
+		<key>overheads</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>overheads</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>frais généraux</string>
+		</dict>
+		<key>paperwork</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>paperwork</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>paperasserie</string>
+		</dict>
+		<key>peer</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>peer</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>regarder, égal à égal</string>
+		</dict>
+		<key>plummet</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>plummet</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>plonger, tomber brusquement</string>
+		</dict>
+		<key>praise</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>praise</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>louer, faire l&apos;éloge</string>
+		</dict>
+		<key>prescription</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>prescription</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>ordonnance</string>
+		</dict>
+		<key>press release</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>press release</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>communiqué de presse</string>
+		</dict>
+		<key>proactive</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>proactive</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>faire preuve d&apos;initiative</string>
+		</dict>
+		<key>profit</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>profit</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>bénéfice</string>
+		</dict>
+		<key>proposal</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>proposal</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>proposition</string>
+		</dict>
+		<key>provide</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>provide</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>fournir</string>
+		</dict>
+		<key>quarter</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>quarter</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>trimestre</string>
+		</dict>
+		<key>quote</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>quote</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>côter</string>
+		</dict>
+		<key>rating</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>rating</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>audience</string>
+		</dict>
+		<key>raw material</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>raw material</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>matière première</string>
+		</dict>
+		<key>real estate agent</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>real estate agent</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>agent immobilier</string>
+		</dict>
+		<key>relocate</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>relocate</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>demenager, réimplanter</string>
+		</dict>
+		<key>reminder</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>reminder</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>rappels</string>
+		</dict>
+		<key>resignation</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>resignation</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>démission</string>
+		</dict>
+		<key>resort</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>resort</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>station, lieu de vacances</string>
+		</dict>
+		<key>retirement</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>retirement</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>retraite</string>
+		</dict>
+		<key>row</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>row</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>rangée</string>
+		</dict>
+		<key>run out of</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>run out of</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>être à court de</string>
+		</dict>
+		<key>sales assistant</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>sales assistant</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>vendeur</string>
+		</dict>
+		<key>salesperson</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>salesperson</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>vendeur</string>
+		</dict>
+		<key>scheme</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>scheme</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>projet, plan</string>
+		</dict>
+		<key>screwdriver</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>screwdriver</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>tournevis</string>
+		</dict>
+		<key>seldom</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>seldom</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>rare</string>
+		</dict>
+		<key>sensible</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>sensible</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>censé, raisonnable</string>
+		</dict>
+		<key>settle</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>settle</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>payer, rembourser</string>
+		</dict>
+		<key>shift</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>shift</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>les 3 8</string>
+		</dict>
+		<key>shortage</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>shortage</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>pénuerie</string>
+		</dict>
+		<key>show up</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>show up</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>arriver, se pointer</string>
+		</dict>
+		<key>sink</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>sink</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>évier</string>
+		</dict>
+		<key>sort</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>sort</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>trier</string>
+		</dict>
+		<key>stand in line</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>stand in line</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>faire la queue</string>
+		</dict>
+		<key>steep</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>steep</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>pentu</string>
+		</dict>
+		<key>steering wheel</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>steering wheel</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>volant</string>
+		</dict>
+		<key>stiff</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>stiff</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>sévère </string>
+		</dict>
+		<key>stock up on</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>stock up on</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>faire des provisions</string>
+		</dict>
+		<key>strike a deal</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>strike a deal</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>conclure un marché</string>
+		</dict>
+		<key>stringent</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>stringent</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>rigoureux, énergique</string>
+		</dict>
+		<key>subscriber</key>
+		<dict>
+			<key>Created Time</key>
+			<date>2015-09-14T18:31:58Z</date>
+			<key>From Language</key>
+			<string>en</string>
+			<key>Priority</key>
+			<integer>5</integer>
+			<key>Raw Language</key>
+			<string>subscriber</string>
+			<key>To Language</key>
+			<string>fr</string>
+			<key>Translated Text</key>
+			<string>abonné</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
